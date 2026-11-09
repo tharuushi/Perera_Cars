@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Perera Cars</title>
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Perera Cars">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header id="topbar"></header>
+    <main id="view"></main>
+    <button id="fab" aria-label="Add record">+</button>
+    <nav id="tabs">
+      <a href="#/cars" data-tab="cars"><span class="ti">🚗</span>Cars</a>
+      <a href="#/reports" data-tab="reports"><span class="ti">📊</span>Reports</a>
+      <a href="#/settings" data-tab="settings"><span class="ti">⚙️</span>Settings</a>
+    </nav>
+  </div>
+  <div id="sheet-backdrop" hidden></div>
+  <div id="sheet" hidden></div>
+  <div id="toast" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
