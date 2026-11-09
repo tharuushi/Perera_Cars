@@ -1,5 +1,5 @@
 // Offline support: caches the app so it opens without internet.
-const CACHE = 'perera-cars-v4';
+const CACHE = 'perera-cars-v5';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'store.js', 'firebase-config.js',
   'manifest.webmanifest', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/logo.png'];
 
